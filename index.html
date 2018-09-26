@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9 | !IE]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AUMTeam – Trading robots using a blockchain-platform for trading tokens and crypto currency.</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='assets/css/vendor.css'>
+  <link rel='stylesheet' href='assets/css/theme_dark.css'> <!-- edit css file name to be `theme_light.css` or `theme_dark.css` -->
+  <link rel='stylesheet' href='assets/css/custom.css'>
+  <!--[if lte IE 9]><!-->
+  <script src='assets/js/vendor/html5shiv.min.js'></script>
+  <!--<![endif]-->
+  
+</head>
+<body>
+
+  <div class="site">
+    <div class="site-loader _multi-circle-line">
+      <div class="site-loader-spinner"></div>
+    </div> <!-- .site-loader -->
+
+    <div class="site-bg">
+      <div class="site-bg-img"></div>
+      <div class="site-bg-video"></div>
+      <div class="site-bg-overlay"></div>
+      <div class="site-bg-effect layer" data-depth=".30"></div> <!-- parallax data, try edit to other number :) -->
+      <canvas class="site-bg-canvas layer" data-depth=".30"></canvas> <!-- parallax data, try edit to other number :) -->
+      <div class="site-bg-border"></div>
+    </div> <!-- .site-bg -->
+
+    <div class="site-canvas">
+      <header class="site-header">
+        <div class="container">
+          <div class="site-header-header">
+            <div class="site-header-brand">
+              <a href="#">
+                  <h2>across unique </br>mind team</h2>
+              </a>
+            </div>
+            <a class="primary-nav-toggle" href="#">
+              <i class="fa fa-navicon"></i>
+            </a>
+          </div>
+          <div class="site-header-main">
+            <nav class="primary-nav">
+              <div class="primary-menu-container">
+                <ul class="primary-menu">
+                  <li class="primary-menu-item is-active" data-section="#home">
+                    <a href="#" data-hover="Home"><span>Home</span></a> <!-- set `data-hover` same as the link text -->
+                  </li> <!-- add `is-active` class for the main section, set `data-section` to be the section id -->
+                  <li class="primary-menu-item" data-section="#about">
+                    <a href="#" data-hover="About US"><span>About us</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#service">
+                    <a href="#" data-hover="Our solutions"><span>Our solutions</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#contact">
+                    <a href="#" data-hover="Contact"><span>Contact</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#social">
+                    <a href="#"><i class="fa fa-share-alt"></i></a>
+                  </li>
+                  <li class="primary-menu-item audio-toggle">
+                    <a href="#"><i class="fa fa-volume-up"></i></a>
+                  </li> <!-- .audio-toggle -->
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header> <!-- .site-header -->
+      <main class="site-main">
+        <div id="nav" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- for `> md` screen, control with `#nav` id -->
+
+        <div id="social" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="social-menu-container">
+                        <ul class="social-menu">
+                          <li class="social-item">
+                            <a href="https://www.facebook.com/copyst" target="_blank">
+                              <i class="fa fa-facebook-square"></i>
+                              <span>Facebook</span>
+                            </a> <!-- social link -->
+                          </li>
+                          <li class="social-item">
+                            <a href="https://twitter.com/copyst" target="_blank">
+                              <i class="fa fa-twitter-square"></i>
+                              <span>Twitter</span>
+                            </a>
+                          </li>
+                          <li class="social-item">
+                            <a href="https://www.youtube.com/copyst" target="_blank">
+                              <i class="fa fa-youtube-square"></i>
+                              <span>Youtube</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- #social -->
+
+        <div id="home" class="section is-active">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div id="countdown_dashboard" class="countdown">
+                        <div class="dash-primary">
+                          <div class="dash days_dash">
+                            <div class="digit">0</div> <!-- remove this line for double figures -->
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                            <span class="dash_title">DAYs</span>
+                          </div>
+                        </div>
+                        <div class="dash-secondary">
+                          <div class="dash hours_dash">
+                            <span class="dash_title">Hours</span>
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                          </div>
+
+                          <div class="dash minutes_dash">
+                            <span class="dash_title">Minutes</span>
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                          </div>
+
+                          <div class="dash seconds_dash">
+                            <span class="dash_title">Seconds</span>
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                          </div>
+                        </div>
+                      </div> <!-- .countdown -->
+                      <p>
+                        <b>DevOps </b> — приоритетное направление нашей деятельности.
+                        <br>
+                       Be the first who know
+about starting pre-ico and get a discount for buying tokens.
+                      </p>
+                      <form id="subscribeForm">
+                        <div class="subscribe-wrap">
+                          <a id="subscribeBtn" class="btn btn-default btn-subscribe">
+                            <i class="fa fa-bell-o animated infinite swing"></i> <!-- bell animation class `animated infinite swing` -->
+                            <span>Discover</span>
+                          </a>
+                          <input id="subscribeEmail" class="form-control" type="email" name="email" placeholder="Your Email">
+                          <button id="subscribeSubmit" class="btn" type="submit"><i class="fa fa-envelope-o"></i></button>
+                        </div>
+                        <div class="form-notify"></div>
+                      </form> <!-- #subscribeForm -->
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="about" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="section-heading">
+                        <h2 class="section-title">Who we are?</h2>
+                        <p class="section-subtitle">Analytics • Big Data • Trading</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="col-inner">
+                      <p><span class="first-letter">We</span>–represent an analytical blockchain platform that allows you to select the most convenient and effective trading strategy and foresee all the possible risks by compiling and analyzing large sets of data.
+                       We provide all the necessary instruments for achieving the most favourable results, including a system of trading bots. 
+                      An undeniable advantage of our network is high-speed bot decision making.</p>
+                      <a class="btn btn-default hidden-xs hidden-sm" href="#" data-section="#service">
+                        <span>More info</span>
+                      </a> <!-- button link to section, edit the `data-section` to be section id -->
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
+                    <div class="col-inner">
+                      <div class="iconbox _left">
+                        <div class="iconbox-icon">
+                          <i class="icon-strategy"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Crypto robot.</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>Trading bots are algorithms or scripts executing certain series of actions in a matter of milliseconds, set by the user and not requiring his presence.</p>
+                        </div>
+                      </div> <!-- .iconbox -->
+
+                      <div class="iconbox _left">
+                        <div class="iconbox-icon">
+                          <i class="icon-tools"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Data signal.</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>The trading signals are software aiming at routine process automatization. It is possible to make a decision based on the necessary recommendations they provide. When we designed the interface our priority was our clients. Both the desktop and the mobile version are easy to use.</p>
+                        </div>
+                      </div> <!-- .iconbox -->
+                      <a class="btn btn-default hidden-md hidden-lg" href="#" data-section="#service">
+                        <span>More info</span>
+                      </a> <!-- button link to section, edit the `data-section` to be section id -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="service" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="section-heading">
+                        <h2 class="section-title">About</h2>
+                        <p class="section-subtitle">Analytics • Big Date • Trading</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div id="serviceCarousel" class="owl-carousel">
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="icon-mobile"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Design</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p> First of all, we made such interface for our customers, so that it would be convenient both on the desktop and on the mobile for them.</p>
+                          </div>
+                        </div> <!-- .iconbox -->
+
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="icon-beaker"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Comfort</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p>At the moment all the gathered trading experience is aimed at training trading robots and generates impressive results. The platform tracks statistics, maintains its relevant status, and optimizes the robots. </p>
+                          </div>
+                        </div> <!-- .iconbox -->
+
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="icon-chat"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Data Collection</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p>The system collects data from over 1000 different sources. It finds the necessary parameters for information processing using the blockchain technology. </p>
+                          </div>
+                        </div> <!-- .iconbox -->
+
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="icon-gears"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Processing</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p>The collected data is instantly processed and it can be used for a personal strategy or it can be uploaded into a trading robot's system for decision making. </p>
+                          </div>
+                        </div> <!-- .iconbox -->
+
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="icon-tools"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Analytics</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p>Market analysis allows to accurately deliver information for trading. ICO analytics system will inform you about the risks invloved in buying or selling tokens. <p>
+                          </div>
+                        </div> <!-- .iconbox -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- #service -->
+
+        <div id="contact" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="section-heading">
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="section-subtitle">Analytics • Big Date • Trading</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-md-5 m-t-30-sm-max">
+                    <div class="col-inner">
+                      <div class="iconbox _left">
+                        <div class="iconbox-icon">
+                          <i class="icon-tablet"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Tel.</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>
+                            +7 (495) 088-1395
+                            <br>
+                            
+                          </p>
+                        </div>
+                      </div> <!-- .iconbox -->
+
+                      <div class="iconbox _left">
+                        <div class="iconbox-icon">
+                          <i class="icon-pencil"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Email</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>
+                            hello@scori.co
+                            
+                          </p>
+                        </div>
+                      </div> <!-- .iconbox -->
+
+                      <div class="iconbox _left">
+                        <div class="iconbox-icon">
+                          <i class="icon-map-pin"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Adress</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>
+                            Russia
+                            <br>
+                            Moscow
+                          </p>
+                        </div>
+                      </div> <!-- .iconbox -->
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
+                    <div class="col-inner">
+                      <form class="_outline" id="contactForm" novalidate="novalidate">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group required">
+                              <label class="form-label" for="contactName">Name</label>
+                              <input class="form-control" id="contactName" type="text" name="name">
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group required">
+                              <label class="form-label" for="contactEmail">Email </label>
+                              <input class="form-control" id="contactEmail" type="text" name="email">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group required">
+                          <label class="form-label" for="contactMessage">Message</label>
+                          <textarea class="form-control" id="contactMessage" rows="4" name="message"></textarea>
+                        </div>
+                        <div class="btn-wrap">
+                          <button type="submit" class="btn btn-default btn-block">Send</button>
+                        </div>
+                        <div class="form-notify">Hello!</div>
+                      </form> <!-- contactForm -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main> <!-- .site-main -->
+    </div>
+  </div>
+
+  <script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
+  <script src='assets/js/vendor/bootstrap.min.js'></script>
+  <script src='assets/js/vendor/plugin.js'></script>
+  <script src='assets/js/variable.js'></script>
+  <script src='assets/js/main.js'></script>
+
+ 
+
+</body>
+</html>
