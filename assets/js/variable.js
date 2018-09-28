@@ -1,6 +1,6 @@
 
 // --------------------------------------------------
-var _section_animation_duration =                 400; // [millisecond] - try change this value and check the page animation :)
+var _section_animation_duration =                 900; // [millisecond] - try change this value and check the page animation :)
 
 //
 // site border
